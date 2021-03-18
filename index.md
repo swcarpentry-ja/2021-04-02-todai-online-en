@@ -78,6 +78,8 @@ displayed if the 'eventbrite' field in the header is not set.
 
 <h2 id="general">General Information</h2>
 
+<a href="//swcarpentry-ja.github.io/2021-04-02-todai-online-ja/">（日本語のサイトはこちらです）</a>.
+
 {% comment %}
 INTRODUCTION
 
