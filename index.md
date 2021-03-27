@@ -10,7 +10,7 @@ language: "ja"     # lowercase two-letter ISO language code such as "fr" (see ht
 latitude: "35.689487"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "139.691711"       # decimal longitude of the workshop venue (use https://www.latlong.net)
 humandate: "April 2, 7, 9, 14, 16, 2021"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "10:00 am - 12:00 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+humantime: "10:00 am - 12:00 pm (JST)"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2021-04-02      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2021-04-06        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Joel Nitta", "Riku Takei"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
@@ -302,19 +302,13 @@ We will use this <a href="{{ page.collaborative_notes }}">collaborative document
 {% endif %}
 
 {% comment %}
-#### Temporarily comment-out survey until we get it set up ####
-
-{% comment %}
 SURVEYS - DO NOT EDIT SURVEY LINKS
 {% endcomment %}
 <h2 id="surveys">Surveys</h2>
 <p>Please be sure to complete these surveys before and after the workshop.</p>
 <p><a href="{{ site.pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
-
 <hr/>
-
-{% endcomment %}
 
 {% comment %}
 SCHEDULE
