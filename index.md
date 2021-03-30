@@ -342,6 +342,10 @@ of code below the Schedule `<h2>` header below with
 {% include lc/schedule.html %}
 {% endif %}
 
+<p>The above schedule is approximate, and actual contents may vary</p>
+
+<p>Lesson curricula are available <a href="http://swcarpentry.github.io/r-novice-gapminder/">here</a></p>
+
 <hr/>
 
 
